@@ -836,7 +836,6 @@ NSString *ApplicationSupportSubdirectoryName = @"mogenerator";
         {nil,                   0,     0},
     };
     [optionsParser addOptionsFromTable:optionTable];
-    [optionsParser setArgumentsFilename:@".mogenerator-args"];
 }
 
 - (void)printUsage {
